@@ -1,0 +1,48 @@
+.how{
+   margin-bottom: 137px;
+}
+.how h2 {
+   font-family: "Marcellus", serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 60px;
+   text-align: center;
+   color: #040f0a;
+   margin: 137px 0 60px;
+}
+.how div span {
+   width: 157px;
+   height: 0;
+   border: 1px dashed #dba842;
+   margin-top: 72px;
+}
+.circle {
+   /* padding: 35px; */
+   width: 138px;
+   height: 138px;
+   border: 1px solid #dba842;
+   border-radius: 100%;
+   display: grid;
+   place-items: center;
+}
+.token:nth-child(3) .circle {
+   background-color: #dba842;
+   border: 1px solid #dba842;
+}
+
+.token {
+   width: 170px;
+   display: grid;
+   place-items: center;
+}
+.token p {
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 19px;
+   line-height: 23px;
+   text-align: center;
+   color: #040f0a;
+   margin-top: 24px;
+}

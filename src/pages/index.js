@@ -1,8 +1,9 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import { NavigationBar } from "@/components/NavigationBar/NavigationBar";
-import { Banner } from "@/components/NavigationBar/Banner";
+import { NavigationBar } from "@/components/NavigationBar";
+import { Banner } from "@/components/Banner";
+import { Howto } from "@/components/Howto";
 
 export default function Home() {
    return (
@@ -22,6 +23,7 @@ export default function Home() {
             {/*  */}
             <NavigationBar></NavigationBar>
             <Banner></Banner>
+            <Howto></Howto>
          </div>
 
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
