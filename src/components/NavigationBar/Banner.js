@@ -13,7 +13,7 @@ export const Banner = () => {
                   <button className="btn btn-primary">Enter Competition</button>
                </div>
                <div className={styles.card}>
-                  <Image src="/assets/image 3.png" width="172" height="272"></Image>
+                  <Image src="/assets/image3.png" width="172" height="272"></Image>
                   <div className={styles.timer}>
                      <div>
                         <p>1</p>
@@ -140,7 +140,7 @@ export const Banner = () => {
             </div>
             <div>
                <div className={`${styles.card} ${styles.cardTwo}`}>
-                  <Image src="/assets/image 5.png" width="172" height="272"></Image>
+                  <Image src="/assets/image5.png" width="172" height="272"></Image>
                   <div className={styles.timer}>
                      <div>
                         <p>1</p>
@@ -162,7 +162,7 @@ export const Banner = () => {
                         <p>seconds</p>
                      </div>
                   </div>
-                  <h2>Rolex Submariner 116623lb</h2>
+                  <h2>Rolex Yacht-master 42</h2>
                   <button className="btn btn-ghost px-0 border-0">
                      Enter Competition
                      <span className="ps-2">
