@@ -6,7 +6,7 @@ export const NavigationBar = () => {
       height: "50px",
    };
    return (
-      <nav class="navbar bg-body-tertiary fixed-top">
+      <nav class="navbar bg-body-tertiary sticky-top">
          <div class="container row mx-auto text-center">
             <div className="col-3 text-start">
                <button class="navbar-toggler p-0 border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">

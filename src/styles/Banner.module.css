@@ -1,0 +1,138 @@
+.bannerLeft {
+   position: relative;
+   max-width: 1114px;
+   width: 60%;
+   background-color: #292929;
+   padding: 224px 300px;
+}
+.bannerLeft > div:first-child p {
+   color: #dba842;
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 19px;
+   line-height: 23px;
+}
+.bannerLeft > div:first-child h2 {
+   font-family: "Marcellus";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 80px;
+   line-height: 92px;
+   /* or 115% */
+   color: #ffffff;
+   margin: 14px 0 75px;
+}
+.bannerLeft > div:first-child button {
+   background: #dba842;
+   padding: 24px 47px;
+   border: 0;
+   border-radius: 0;
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 21px;
+   color: #ffffff;
+}
+.bannerLeft > div:last-child {
+   position: absolute;
+   right: 94px;
+   bottom: -60px;
+   width: 119.73px;
+   height: 119.73px;
+   border-radius: 100%;
+   background: #f9f8fb;
+   box-shadow: 0px 13px 37px rgba(0, 0, 0, 0.16);
+}
+.bannerLeft > div:last-child svg{
+   width: 100%;
+   height: 100%;
+   padding: 11px;
+}
+.card {
+   position: absolute;
+   display: grid;
+   place-items: center;
+   max-width: 354px;
+   padding: 20px 33px 28px;
+   top: 100px;
+   right: -110px;
+   background: #ffffff;
+   box-shadow: -15px 21px 74px rgba(0, 0, 0, 0.32);
+}
+.card img {
+   z-index: 200;
+}
+.timer {
+   transform: translateY(-16px);
+   /* z-index: inherit; */
+   background: #022915;
+   color: #ffffff;
+   padding: 16px 23px;
+   display: flex;
+   align-items: center;
+   gap: 17px;
+}
+.timer span {
+   width: 0px;
+   height: 17.83px;
+   border: 1px solid #36433c;
+}
+.timer div {
+   text-align: center;
+}
+.timer div p:first-child {
+   font-family: "Marcellus";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;
+   /* identical to box height, or 120% */
+   text-align: center;
+}
+.timer div p:nth-child(2) {
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 16px;
+   text-align: center;
+   color: #cecece;
+}
+.card h2 {
+   font-family: "Marcellus";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 40px;
+   color: #040f0a;
+   margin: 16px 0 21px;
+}
+.card button {
+   justify-self: start;
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 18px;
+   color: #313131;
+}
+.card.cardTwo {
+   position: relative;
+   top: 0;
+   left: 0;
+   margin: 224px 0px 0px 152px;
+   background: #dba842;
+   box-shadow: 0px 21px 74px rgba(0, 0, 0, 0.32);
+}
+.card.cardTwo .timer {
+   background-color: #ffffff;
+   color: #040f0a;
+}
+.card.cardTwo .timer div p:nth-child(2) {
+   color: #585858;
+}
+.card.cardTwo .timer span {
+   border-color: #efefef;
+}
